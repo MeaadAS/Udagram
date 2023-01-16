@@ -27,11 +27,6 @@ jobs:
           name: Install API Dependencies
           command: |
            npm run frontend:install
-      # TODO: Lint the frontend
-      - run:
-          name: Front-End Lint
-          command: |
-            npm run lint:install
       # TODO: Build the frontend app
       - run:
           name: Front-End Build

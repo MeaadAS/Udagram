@@ -11,7 +11,6 @@ jobs:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
     steps:
-      # install node and checkout code
       - node/install:
           node-version: '14.15'         
       - checkout
@@ -74,7 +73,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
           type: approval
           requires:
             - build

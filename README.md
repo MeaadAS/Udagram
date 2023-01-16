@@ -1,26 +1,28 @@
-## Link for front end
-
-http://meaad-bucket.s3-website-us-east-1.amazonaws.com/
-
-[License](LICENSE.txt)
+- Meaad Ali AlSeraihi
 
 # Hosting a Full-Stack Application
 
-### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
+Finally!! it is the third project of Udacity Fullstack web development
 
----
+# Hosting
 
-In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
+## Frontend link
 
-After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually understand all the moving parts.
+http://meaad-bucket.s3-website-us-east-1.amazonaws.com/
 
-You will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, you will write a config.yml file that will make the process reproducible in CircleCi. You will set up the process to be executed automatically based when code is pushed on the main Github branch.
+## Backend link
 
-The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
+http://udagram-api-dev.eba-p3ssepcr.us-east-1.elasticbeanstalk.com/
 
-# Udagram
+# Getting Start
 
-This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+- Clone the project
+- install the Dependencies of api by run (npm run api:install)
+- Creating the Postgres database
+- Adding the environment variables
+- Starting the server (npm run api:start)
+- install the Dependencies of frontend (npm run frontend:install)
+- Starting the Frontend (npm run frontend:start)
 
 ### Dependencies
 
@@ -70,7 +72,3 @@ The e2e tests are using Protractor and Jasmine.
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
-
-## License
-
-[License](LICENSE.txt)
